@@ -7,8 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= link_to 'Home', controller: 'home', action: 'index' %>
+<%= link_to 'Cadastro de produtos', products_path %>
+<hr />
 <%= yield %>
-
 </body>
 </html>
